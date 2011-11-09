@@ -1,0 +1,295 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html { 
+	height: 101%; 
+} 
+
+body {
+	background-color: #F85D87;
+	background-image: url(../images/body_bg.png);
+	background-repeat: repeat-x;
+	background-position: 0px 203px;
+	
+}
+
+div#container {
+	width: 980px;
+	margin: 0 auto;
+	background-image: url(../images/container_bg.jpg);
+	background-repeat: repeat-x;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+img {
+	border: 0px;
+}
+
+/* Header */
+
+div#header {
+	width: 970px;
+	position: relative;
+	background-image: url(../images/container_bg.jpg);
+	padding: 0px 5px;
+	height: 148px;
+	margin-bottom: 10px;
+}
+
+img#header_logo {
+	position: absolute;
+	left: 5px;
+	bottom: 0px;
+}
+
+div#kontakt {
+	position: absolute;
+	right: 5px;
+	top: 22px;
+	text-align: right;
+}
+
+div#header p {
+	color: #4B0317;
+	margin-bottom: 10px;
+}
+
+/* End Header */
+
+/* Navigation */
+
+div#navigation {
+	position: absolute;
+	right: 5px;
+	bottom: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#navigation ul {
+	list-style: none;
+}
+
+div#navigation ul li.menu_item {
+	float: left;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+}
+
+div#navigation a:link, div#navigation a:visited {
+	color: #4B0317;
+}
+
+div#navigation a:active, div#navigation a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+li#navi_home {
+	width: 42px;
+}
+
+li#navi_aktuell {
+	width: 62px;
+}
+
+li#navi_angebot {
+	width: 69px;
+}
+
+li#navi_produkte {
+	width: 77px;
+}
+
+li#navi_portrait {
+	width: 70px;
+}
+
+li#navi_kontakt {
+	width: 65px;
+}
+
+li#navi_accessoires {
+	width: 98px;
+}
+
+#magic-line { 
+	position: absolute;
+	bottom: -1px; 
+	left: 0; 
+	width: 100px; 
+	height: 3px; 
+	background: #4B0317;
+}
+.current_page_item a { 
+	color: #000000;
+	font-weight: bold;
+}
+.ie6 #example-one li, .ie7 #example-one li { 
+	display: inline; 
+}
+.ie6 #magic-line {
+	bottom: -3px;
+}
+
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+/* End Navigation*/
+
+/* Content */
+
+div#content_wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+div#content {
+	background-image: url(../images/content_bg.png);
+	background-repeat: repeat-y;
+	width: 940px;
+	min-height: 570px;
+	padding: 15px 20px;
+	overflow: auto;
+}
+
+a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	color: #4B0317;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 14px;
+	color: #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#content p {
+	margin-bottom: 20px;
+	line-height: 150%;
+}
+
+div#content a:link, div#content a:visited, div#content a:active, div#content a:hover {
+	color: #EA4B76;
+}
+
+div#content a:active, div#content a:hover {
+	text-decoration: underline;
+}
+
+div.col1of2, div.col2of2 {
+	width: 460px;
+	display: inline;
+	float: left;
+}
+
+div.col1of2 {
+	margin-right: 20px;
+	clear: both;
+}
+
+div.col1of3, div.col2of3, div.col3of3 {
+	width: 300px;
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+
+div.col3of3 {
+	margin-right: 0px;
+}
+
+.gallery_row {
+	clear: both;
+}
+
+table tr td {
+	line-height: 150%;
+}
+
+.table_head {
+    background-color: #F85D87;
+    color: #4B0317;
+	font-weight: bold;
+}
+
+tr.even {
+    background-color: #EAEAEA;
+}
+
+table.styled tr td {
+    padding: 4px 10px;
+}
+
+.with_frame {
+	padding: 3px;
+	border: 1px #CCCCCC solid;
+	margin-bottom: 20px;
+}
+
+div#content p {
+	clear: both;
+}
+
+
+/* End Content */
+
+/* Formular */
+
+div.form_row {
+	margin-bottom: 10px;
+}	
+
+label {
+	float: left;
+	width: 150px;
+}
+
+.text_input {
+	width: 250px;
+}
+
+/* End Formular */
+
+/* Footer */
+
+div#footer {
+	width: 970px;
+	padding: 0px 5px;
+}
+
+div#footer p#copyright, div#footer p#impressum {
+	float: left;
+	margin-top: 0px;
+}
+
+div#footer p#impressum {
+	float: right;
+}
+
+div#footer p, div#footer a:link, div#footer a:visited, div#footer a:active, div#footer a:hover {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+div#footer a:active, div#footer a:hover {
+	text-decoration: underline;
+}
+
+/* End Footer */
